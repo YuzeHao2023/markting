@@ -21,4 +21,4 @@ jobs:
         run: echo "${{ secrets.GH_SPREAD_TOKEN }}" | gh auth login --with-token
 
       - name: Run promotion script
-        run: bash promote.sh
+        run: bash promote-bio.sh
